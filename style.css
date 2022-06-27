@@ -1,0 +1,559 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: auto;
+}
+/*     
+    celeste #9EC6E0
+    naranja #FCBA6E
+    gris #606060 */
+
+
+/* <!-- Header --> */
+body{
+    background-color: #ffffff;
+}
+
+.cabecera{
+    width: 100%;
+    height: 20vh;
+    background-color: #9EC6E0;
+
+    display: flex;
+    align-items: center;
+}
+
+.cabecera .logo{
+    width: 25vh;
+    height: fit-content;
+    padding-left: 20px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap:wrap ;
+}
+
+.menu ul li{
+    padding: 20px 60px;
+    font-size: 32px;
+}
+
+.menu ul li a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+/* <!-- Fin Header --> */
+
+/* <!-- Sección Main Home --> */
+.main{
+    width: 100%;
+    height: auto;
+    padding: 40px 40px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+@media (max-width: 600px) {
+    .main {
+        grid-template-columns: 1fr;
+        font-size: 20px;
+    }
+}
+
+.informacion{
+    width:70%;
+    height: auto;
+    padding: 40px;
+    color: #9EC6E0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+
+    display: block;
+    justify-self: center;
+    align-items: center;
+}
+
+.fotoprincipal{
+    width: 90%;
+    height: 50%;
+    padding-right: 20px;
+    margin-left: 0%;
+}
+
+.fotoprincipal img{
+    width: 100%;
+    border: solid 10px #FCBA6E;
+}
+/* <!-- Fin Sección Main home --> */
+
+/* <!-- Sección Testimonios en Home --> */
+.testimoniosconteiner{
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.testimoniostitulo{
+    height: 200px;
+    width: 100%;
+    color: #FCBA6E;
+
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+
+    align-content: center;
+
+    position: absolute;
+    padding: 40px;
+    padding-bottom: 50px;
+}
+
+.testimoniosejemplos{
+    width: 25%;
+    height: 200px;
+    padding: 40px;
+    padding-top: 200px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex
+}
+
+.testimoniosfoto1{
+    width: 200px;
+    height: fit-content;
+}
+
+.testimoniosenlace1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #606060;
+    padding: 10px;
+    align-content: center;
+    justify-content: left;
+}
+
+.testimoniosfoto2{
+    width: 200px;
+    height: fit-content;
+}
+
+.testimoniosenlace2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #606060;
+    padding: 10px;
+    align-items: center;
+    justify-content: left;
+}
+
+.testimoniosfoto3{
+    width: 200px;
+    height: fit-content;
+}
+
+.testimoniosenlace3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #606060;
+    padding: 10px;
+    align-items: center;
+    justify-content: left;
+}
+
+/* <!-- Fin Sección Testimonios en Home --> */
+
+/* <!--  Sección Testimonios --> */
+
+.secciontestimonios{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.secciontestimoniostitulo{  
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    color: #FCBA6E;
+
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontestimonios-ejemplo3{
+    width: 100%;
+    padding-left: 40px;
+    padding-bottom: 40px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.secciontestimonios-ejemplo2{
+    flex-direction: row-reverse;
+    padding-right: 50px;
+}
+
+.secciontestimonios h3{
+    padding-left: 40px;
+    color: #9EC6E0;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secciontestimonios-ejemplo2 div{
+    justify-content: flex-end;
+    /* No funciona */
+}
+
+.secciontestimonios p{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #606060;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* <!--  Fin Sección Testimonios --> */
+
+/* <!-- Sección Empeza Ahora --> */
+.empeza{
+    width: 100%;
+    height: 300PX;
+    padding: 20px;
+    text-align: center;
+}
+
+.empeza h2{
+    color: #ffffff;
+    background-color: #FCBA6E;
+
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+
+    justify-content: center;
+}
+
+.veranimales{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.empeza div a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    /* margin: auto; */
+    color: #9EC6E0;
+    text-decoration: none;
+
+}
+/* <!-- Fin Sección Empeza Ahora --> */
+
+/* <!-- Sección Gatos --> */
+.secciongatos{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    
+    display: inline-block
+}
+
+.gatitostitulo{
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    color: #FCBA6E;
+
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+
+    display: block;
+    text-align: center;
+}
+
+.listagatos{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 960px) {
+    .listagatos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6 1fr);
+    }
+}
+
+
+.gato1, .gato2, .gato3, .gato4, .gato5, .gato6{
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-start;
+
+    display: flex;
+}
+
+.gatololito{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #9EC6E0;
+    padding-left: 30px;
+
+    display: flex;
+}
+
+.listagatos img{
+    width: 30vh;
+    height: auto;
+}
+
+.listagatos p{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    font-size: 40px;
+}
+/* <!-- Fin Sección Gatos --> */
+
+/* <!-- Sección Lolito --> */
+.fichaanimal{
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    justify-content: center;
+    display: flex /*porque engloba fichainformacion y fichafoto*/
+    
+}
+
+.fichainformacion{
+    width: 40%;
+    height: 500px;
+    padding-right: 100px;
+    display: block; /* porque adentro tiene fichatexto y el h4+p+p*/
+}
+
+
+.fichatexto{
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: inline;
+    text-align: right;
+}
+
+.sexomasculio img{
+   width: 30%
+}
+
+.fichaanimal h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    color: #9EC6E0;
+}
+
+
+.fichaanimal h4{
+    padding-top: 20px;
+    padding-bottom: 40PX;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-align: right;
+}
+ 
+.fichafoto{
+    width: auto;
+    height: 600px;
+    padding: 20px;
+}
+
+.fichaanimal p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-align: right;
+}
+
+.fichamapa{
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+
+    justify-content: center;
+    display: flex;
+}
+
+.fichamapa iframe{
+    width: 40%;
+
+    display: inline-block;
+}
+
+.fichagaleria{
+    width: 50%;
+    padding-left: 20px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.fichagaleria img{
+    width: 30%;
+}
+
+.quieroadoptar{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quieroadoptar a{ 
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    color: #9EC6E0;
+}
+
+/* <!-- Fin Sección Lolito --> */
+
+/* <!-- Sección Cómo adoptar --> */
+
+.seccioncomoadoptar{
+   width: 100%;
+   display: inline-block;
+}
+
+.seccioncomoadoptartitulo{
+    height: 200px;
+    width: 100%;
+    color: #FCBA6E;
+    padding: 40px;
+
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+
+    display: block;
+    text-align: center;
+}
+
+.comoadoptarinfo{
+    width: 100%;
+    padding: 40px;
+
+    display: inline-block;
+}
+
+.comoadoptar1, .comoadoptar2, .comoadoptar3{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.comoadoptar2{
+    flex-direction: row-reverse;
+}
+
+.comoadoptarinfo h3{
+    padding: 40px;
+    color: #606060;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+    align-items: center;
+    justify-content: space-around;
+    display: flex
+}
+
+.comoadoptarimg1, .comoadoptarimg2{
+    width: 30%;
+}
+
+.comoadoptarimportante{
+    display: block;
+    padding: 0px;
+    width: 60%;
+    margin: auto;
+}
+
+.comoadoptarimportante p{
+    color: #606060;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+    justify-content: center;
+    /* Quiero ponerlo centrado el texto y no funciona */
+}
+
+/* <!-- Fin Sección Cómo adoptar --> */
+
+/* <!-- Formulario de contacto --> */
+
+/* <!-- Footer --> */
+footer{
+    padding: 40px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoinstagram .logofacebook{
+    padding: 10px;
+    align-items: center;   
+    justify-items: center;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+/* <!-- Fin Footer --> */
