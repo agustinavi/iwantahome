@@ -4,53 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuente Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500&display=swap" rel="stylesheet">
+    <!-- Fin fuente Montserrat -->
+    
     <title>Como adoptar</title>
 </head>
 <body>
     
     <!-- Header -->
-    <header>
-        <img src="multimedia/images/logo.jpg" alt="Logo">
-        <nav>
+    <header class="cabecera">
+        <img class="logo" src="multimedia/images/logo.jpg" alt="Logo">
+        <nav class="menu">
             <ul>
-                <li><a href="home.html" target="_blank" > home </a></li>
-                <li><a href="perros.html" target="_blank"> perros </a></li>
-                <li><a href="gatos.html" target="_blank"> gatos </a></li>
-                <li><a href="como adoptar.html" target="_blank"> como adoptar</a></li>
-                <li><a href="testimonios.html" target="_blank"> testimonios </a></li>
-                <li><a href="contacto.html" target="_blank"> contacto </a></li>
+                <li><a href="index.html"  > home </a></li>
+                <li><a href="perros.html" > perros </a></li>
+                <li><a href="gatos.html" > gatos </a></li>
+                <li><a href="como adoptar.html" > como adoptar</a></li>
+                <li><a href="testimonios.html" > testimonios </a></li>
+                <li><a href="contacto.html" > contacto </a></li>
             </ul>
         </nav>
     </header>
     <!-- Fin Header -->
 
     <!--Section 1-->
-        <h1>Pasos para adoptar</h1>
+    <article class="seccioncomoadoptar">
+        <h1 class="seccioncomoadoptartitulo">Pasos para adoptar</h1>
         
-        <img src="multimedia/images/numerouno.png" alt="numero uno">
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nulla modi provident a ex aperiam, praesentium reiciendis veniam cupiditate nisi ratione voluptates nemo consectetur illo animi doloribus. Optio, eveniet. Nihil.</h3>
+        <section class="comoadoptarinfo">
+            <div class="comoadoptar1">
+                <img class="numerouno" src="multimedia/images/numerouno.png" alt="numero uno">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nulla modi provident a ex aperiam, praesentium reiciendis veniam cupiditate nisi ratione voluptates nemo consectetur illo animi doloribus. Optio, eveniet. Nihil.</h3>
+            </div>
 
-        <img src="multimedia/images/fotosadopcion.jpg" alt="persona con su perro">
+            <img class="comoadoptarimg1" src="multimedia/images/fotosadopcion.jpg" alt="persona con su perro">
 
-        <img src="multimedia/images/numerodos.png" alt="numero dos">
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nulla modi provident a ex aperiam, praesentium reiciendis veniam cupiditate nisi ratione voluptates nemo consectetur illo animi doloribus. Optio, eveniet. Nihil.</h3>
+            <div class="comoadoptar2">
+                <img class="numerodos" src="multimedia/images/numerodos.png" alt="numero dos">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nulla modi provident a ex aperiam, praesentium reiciendis veniam cupiditate nisi ratione voluptates nemo consectetur illo animi doloribus. Optio, eveniet. Nihil.</h3>
+            </div>
 
-        <img src="multimedia/images/fotosadopcion2.jpg" alt="persona con su gato">
+            <img class="comoadoptarimg2" src="multimedia/images/fotosadopcion2.jpg" alt="persona con su gato">
 
-        <img src="multimedia/images/numerotres.png" alt="numero tres">
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nulla modi provident a ex aperiam, praesentium reiciendis veniam cupiditate nisi ratione voluptates nemo consectetur illo animi doloribus. Optio, eveniet. Nihil.</h3>
+            <div class="comoadoptar3">
+                <img class="numerotres" src="multimedia/images/numerotres.png" alt="numero tres">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nulla modi provident a ex aperiam, praesentium reiciendis veniam cupiditate nisi ratione voluptates nemo consectetur illo animi doloribus. Optio, eveniet. Nihil.</h3>
+            </div>
+        </section>
+    </article>
     <!--Fin Section 1-->
       
     <!-- Section 2-->
-    <section>
+    <section class="comoadoptarimportante">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, porro? Recusandae exercitationem temporibus numquam quidem corporis consequuntur animi nam saepe, amet voluptatibus, eum fugiat tempore quas facilis necessitatibus, architecto distinctio?</p>
     </section>
     <!--Fin Section 2-->
 
     <!--Section 3-->
-    <section>
-        <a href="perros.html" target="_blank"> Ver perritos</a>
-        <a href="gatos.html" target="_blank"> Ver gatitos</a>
+    <section class="empeza">
+        <h2>¡Empezá ahora!</h2>
+              
+        <div class="veranimales">
+            <a href="perros.html"> Ver perritos</a>
+            <a href="gatos.html"> Ver gatitos</a>
+        </div>
     </section>
     <!--Fin Section 3-->
 
@@ -58,11 +81,15 @@
 
     <!-- Footer -->
     <footer>
-        <a href="https://www.instagram.com/iwantahomearg" target="_blank"><img src="multimedia/images/logo_instagram.png" alt="Logo instagram"></a>
-        <a href="https://www.instagram.com/iwantahomearg" target="_blank"> @iwantahomearg </a>
+        <div>
+            <a class="logoinstagram" href="https://www.instagram.com/iwantahomearg" target="_blank"><img src="multimedia/images/logo_instagram.png" alt="Logo instagram"></a>
+            <a href="https://www.instagram.com/iwantahomearg" target="_blank"> @iwantahomearg </a>
+        </div>
 
-        <a href="https://www.facebook.com/iwantahomearg" target="_blank"><img src="multimedia/images/logo_facebook.png" alt="Logo instagram"></a>
-        <a href="https://www.facebook.com/iwantahomearg" target="_blank"> I Want a Home </a>
+        <div>
+            <a class="logofacebook" href="https://www.facebook.com/iwantahomearg" target="_blank"><img src="multimedia/images/logo_facebook.png" alt="Logo instagram"></a>
+            <a href="https://www.facebook.com/iwantahomearg" target="_blank"> I Want a Home </a>
+        </div>
     </footer>
     <!-- Fin Footer -->
 </body>
