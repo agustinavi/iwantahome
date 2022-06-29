@@ -57,8 +57,10 @@ body{
 
 /* <!-- Sección Main Home --> */
 .main{
+    margin-top: 0%;
     width: 100%;
     height: auto;
+    
     padding: 40px 40px;
     
     display: grid;
@@ -74,29 +76,29 @@ body{
 }
 
 .informacion{
-    width:70%;
     height: auto;
     padding: 40px;
+    padding-top: 20%;
     color: #9EC6E0;
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 600;
 
-    display: block;
     justify-self: center;
-    align-items: center;
+    align-content: center;
+
 }
 
 .fotoprincipal{
     width: 90%;
-    height: 50%;
+    min-height: 100%;
     padding-right: 20px;
     margin-left: 0%;
 }
 
 .fotoprincipal img{
     width: 100%;
-    border: solid 10px #FCBA6E;
+    border: solid 2px #FCBA6E;
 }
 
 /* <!-- Fin Sección Main home --> */
