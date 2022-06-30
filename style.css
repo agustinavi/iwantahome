@@ -467,12 +467,13 @@ body{
     justify-content: center;
 }
 
-.quieroadoptar a{ 
+.btn-primary{ 
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     padding: 10px;
-    color: #9EC6E0;
+    background-color: #9EC6E0;
+    border-color: transparent;
 }
 
 /* <!-- Fin Sección Lolito --> */
