@@ -1,0 +1,59 @@
+
+/* <!--  Sección Testimonios --> */
+
+.secciontestimonios{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.secciontestimoniostitulo{  
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    color: #FCBA6E;
+
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontestimonios-ejemplo3{
+    width: 100%;
+    padding-left: 40px;
+    padding-bottom: 40px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.secciontestimonios-ejemplo2{
+    flex-direction: row-reverse;
+    padding-right: 50px;
+}
+
+.secciontestimonios h3{
+    padding-left: 40px;
+    color: #9EC6E0;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secciontestimonios-ejemplo2 div{
+    justify-content: flex-end;
+    /* No funciona */
+}
+
+.secciontestimonios p{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #606060;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* <!--  Fin Sección Testimonios --> */

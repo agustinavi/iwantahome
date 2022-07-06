@@ -1,0 +1,70 @@
+
+/* <!-- Sección Cómo adoptar --> */
+
+.seccioncomoadoptar{
+    width: 100%;
+    display: inline-block;
+ }
+ 
+ .seccioncomoadoptartitulo{
+     height: 200px;
+     width: 100%;
+     color: #FCBA6E;
+     padding: 40px;
+ 
+     font-size: 80px;
+     font-family: 'Roboto', sans-serif;
+ 
+     display: block;
+     text-align: center;
+ }
+ 
+ .comoadoptarinfo{
+     width: 100%;
+     padding: 40px;
+ 
+     display: inline-block;
+ }
+ 
+ .comoadoptar1, .comoadoptar2, .comoadoptar3{
+     width: 100%;
+     height: 200px;
+     display: flex;
+ }
+ 
+ .comoadoptar2{
+     flex-direction: row-reverse;
+ }
+ 
+ .comoadoptarinfo h3{
+     padding: 40px;
+     color: #606060;
+     font-size: 30px;
+     font-family: 'Roboto', sans-serif;
+ 
+     align-items: center;
+     justify-content: space-around;
+     display: flex
+ }
+ 
+ .comoadoptarimg1, .comoadoptarimg2{
+     width: 30%;
+ }
+ 
+ .comoadoptarimportante{
+     display: block;
+     padding: 0px;
+     width: 60%;
+     margin: auto;
+ }
+ 
+ .comoadoptarimportante p{
+     color: #606060;
+     font-size: 30px;
+     font-family: 'Roboto', sans-serif;
+ 
+     justify-content: center;
+     /* Quiero ponerlo centrado el texto y no funciona */
+ }
+ 
+ /* <!-- Fin Sección Cómo adoptar --> */

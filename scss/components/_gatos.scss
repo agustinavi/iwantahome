@@ -1,0 +1,109 @@
+
+/* <!-- Sección Gatos --> */
+.secciongatos{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    
+    display: inline-block
+}
+
+.gatitostitulo{
+    height: 3rem;
+    width: 100%;
+    padding: 20px;
+    color: #FCBA6E;
+
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+    display: block;
+    text-align: center;
+}
+
+.listagatos{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 960px) {
+    .listagatos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6 1fr);
+        transform: scale(0.9);
+    }
+}
+
+
+@media screen and (max-width: 570px) {
+    .listagatos {
+        transform: scale(0.9);
+    }
+}
+
+
+.gato1, .gato2, .gato3, .gato4, .gato5, .gato6{
+    width: 80%;
+    height: fit-content;
+    padding: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+
+    display: flex;
+}
+
+.listagatos img:hover{
+    transform: scale(1.3);
+    animation: 0.4s;
+}
+
+.gatololito{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #9EC6E0;
+    padding-left: 30px;
+
+    display: flex;
+}
+
+.listagatos img{
+    width: 30vh;
+    height: auto;
+}
+
+.listagatos p{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    font-size: 2rem;
+}
+
+.botonadoptar{
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary:hover{
+    background-color: #91bdda;
+}
+
+.btn-primary:focus{
+    background-color:#FCBA6E;
+}
+
+/* <!-- Fin Sección Gatos --> */
