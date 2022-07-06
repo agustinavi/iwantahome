@@ -24,6 +24,17 @@
      padding: 40px;
  
      display: inline-block;
+
+    & h3{
+        padding: 40px;
+        color: #606060;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    
+        align-items: center;
+        justify-content: space-around;
+        display: flex
+    }
  }
  
  .comoadoptar1, .comoadoptar2, .comoadoptar3{
@@ -36,16 +47,6 @@
      flex-direction: row-reverse;
  }
  
- .comoadoptarinfo h3{
-     padding: 40px;
-     color: #606060;
-     font-size: 30px;
-     font-family: 'Roboto', sans-serif;
- 
-     align-items: center;
-     justify-content: space-around;
-     display: flex
- }
  
  .comoadoptarimg1, .comoadoptarimg2{
      width: 30%;
@@ -56,15 +57,17 @@
      padding: 0px;
      width: 60%;
      margin: auto;
+
+    & p{
+        color: #606060;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    
+        justify-content: center;
+        /* Quiero ponerlo centrado el texto y no funciona */
+    }
  }
  
- .comoadoptarimportante p{
-     color: #606060;
-     font-size: 30px;
-     font-family: 'Roboto', sans-serif;
  
-     justify-content: center;
-     /* Quiero ponerlo centrado el texto y no funciona */
- }
  
  /* <!-- Fin Sección Cómo adoptar --> */

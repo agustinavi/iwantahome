@@ -5,6 +5,36 @@
     width: 100%;
     padding: 20px;
     display: inline-block;
+
+    &-ejemplo1, &-ejemplo2, &-ejemplo3{
+        width: 100%;
+        padding-left: 40px;
+        padding-bottom: 40px;
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    &-ejemplo2{
+    flex-direction: row-reverse;
+    padding-right: 50px;
+    }
+
+    h3{
+        padding-left: 40px;
+        color: #9EC6E0;
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    p{
+        padding-left: 40px;
+        padding-right: 40px;
+        color: #606060;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
 }
 
 .secciontestimoniostitulo{  
@@ -21,39 +51,39 @@
     justify-content: center;
 }
 
-.secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontestimonios-ejemplo3{
-    width: 100%;
-    padding-left: 40px;
-    padding-bottom: 40px;
+// .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontestimonios-ejemplo3{
+//     width: 100%;
+//     padding-left: 40px;
+//     padding-bottom: 40px;
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: center;
+// }
 
-.secciontestimonios-ejemplo2{
-    flex-direction: row-reverse;
-    padding-right: 50px;
-}
+// .secciontestimonios-ejemplo2{
+//     flex-direction: row-reverse;
+//     padding-right: 50px;
+// }
 
-.secciontestimonios h3{
-    padding-left: 40px;
-    color: #9EC6E0;
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-}
+// .secciontestimonios h3{
+//     padding-left: 40px;
+//     color: #9EC6E0;
+//     font-size: 50px;
+//     font-family: 'Roboto', sans-serif;
+// }
 
-.secciontestimonios-ejemplo2 div{
-    justify-content: flex-end;
-    /* No funciona */
-}
+// .secciontestimonios-ejemplo2 div{
+//     justify-content: flex-end;
+//     /* No funciona */
+// }
 
-.secciontestimonios p{
-    padding-left: 40px;
-    padding-right: 40px;
-    color: #606060;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-}
+// .secciontestimonios p{
+//     padding-left: 40px;
+//     padding-right: 40px;
+//     color: #606060;
+//     font-size: 30px;
+//     font-family: 'Roboto', sans-serif;
+// }
 
 /* <!--  Fin Sección Testimonios --> */

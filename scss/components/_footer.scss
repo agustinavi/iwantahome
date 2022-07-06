@@ -8,6 +8,11 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    img{
+        width: 3vh;
+        height: 3vh;
+    }
 }
 
 .logoinstagram .logofacebook{
@@ -16,8 +21,5 @@ footer{
     justify-items: center;
 }
 
-footer img{
-    width: 3vh;
-    height: 3vh;
-}
+
 /* <!-- Fin Footer --> */

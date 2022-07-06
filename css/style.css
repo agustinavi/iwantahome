@@ -18,7 +18,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 .cabecera .logo {
   width: 25vh;
   height: auto;
@@ -28,24 +27,22 @@ body {
 .navbar {
   width: 100%;
 }
-
-.navbar-nav {
-  list-style: none;
-  font-family: "Roboto", sans-serif;
-  justify-content: space-evenly;
-}
-
 .navbar ul li {
   justify-content: center;
   font-size: 32px;
 }
-
 .navbar ul li a {
   /* text-align: center; */
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   align-items: center;
+}
+
+.navbar-nav {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-evenly;
 }
 
 .navbarnav {
@@ -78,8 +75,8 @@ body {
   padding-top: 20%;
   color: #9EC6E0;
   font-family: "Roboto", sans-serif;
-  font-size: 4rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 300;
   justify-self: center;
   align-content: center;
 }
@@ -104,7 +101,6 @@ body {
   padding-right: 1rem;
   margin-left: 0%;
 }
-
 .fotoprincipal img {
   width: 100%;
   border: solid 2px #FCBA6E;
@@ -184,7 +180,6 @@ body {
   padding: 4rem;
   text-align: center;
 }
-
 .empeza h2 {
   color: #ffffff;
   background-color: #FCBA6E;
@@ -195,6 +190,14 @@ body {
   font-family: "Roboto", sans-serif;
   justify-content: center;
 }
+.empeza div a {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  padding: 1rem;
+  /* margin: auto; */
+  color: #9EC6E0;
+  text-decoration: none;
+}
 
 .veranimales {
   display: flex;
@@ -203,15 +206,6 @@ body {
   padding: 1rem;
   align-items: center;
   justify-content: space-around;
-}
-
-.empeza div a {
-  font-family: "Roboto", sans-serif;
-  font-size: 3rem;
-  padding: 1rem;
-  /* margin: auto; */
-  color: #9EC6E0;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 570px) {
@@ -282,6 +276,19 @@ body {
   grid-gap: 20px;
   justify-content: space-evenly;
 }
+.listagatos img:hover {
+  transform: scale(1.3);
+  animation: 0.4s;
+}
+.listagatos img {
+  width: 30vh;
+  height: auto;
+}
+.listagatos p {
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+  font-size: 2rem;
+}
 
 @media screen and (max-width: 960px) {
   .listagatos {
@@ -304,11 +311,6 @@ body {
   display: flex;
 }
 
-.listagatos img:hover {
-  transform: scale(1.3);
-  animation: 0.4s;
-}
-
 .gatololito {
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
@@ -317,17 +319,6 @@ body {
   color: #9EC6E0;
   padding-left: 30px;
   display: flex;
-}
-
-.listagatos img {
-  width: 30vh;
-  height: auto;
-}
-
-.listagatos p {
-  font-family: "Roboto", sans-serif;
-  padding-left: 30px;
-  font-size: 2rem;
 }
 
 .botonadoptar {
@@ -424,7 +415,6 @@ body {
   align-items: flex-start;
   justify-content: space-around;
 }
-
 .fichagaleria img {
   width: 30%;
 }
@@ -453,6 +443,31 @@ body {
   padding: 20px;
   display: inline-block;
 }
+.secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontestimonios-ejemplo3 {
+  width: 100%;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.secciontestimonios-ejemplo2 {
+  flex-direction: row-reverse;
+  padding-right: 50px;
+}
+.secciontestimonios h3 {
+  padding-left: 40px;
+  color: #9EC6E0;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.secciontestimonios p {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #606060;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
 
 .secciontestimoniostitulo {
   height: 200px;
@@ -464,40 +479,6 @@ body {
   display: block;
   text-align: center;
   justify-content: center;
-}
-
-.secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontestimonios-ejemplo3 {
-  width: 100%;
-  padding-left: 40px;
-  padding-bottom: 40px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.secciontestimonios-ejemplo2 {
-  flex-direction: row-reverse;
-  padding-right: 50px;
-}
-
-.secciontestimonios h3 {
-  padding-left: 40px;
-  color: #9EC6E0;
-  font-size: 50px;
-  font-family: "Roboto", sans-serif;
-}
-
-.secciontestimonios-ejemplo2 div {
-  justify-content: flex-end;
-  /* No funciona */
-}
-
-.secciontestimonios p {
-  padding-left: 40px;
-  padding-right: 40px;
-  color: #606060;
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
 }
 
 /* <!--  Fin Sección Testimonios --> */
@@ -523,6 +504,15 @@ body {
   padding: 40px;
   display: inline-block;
 }
+.comoadoptarinfo h3 {
+  padding: 40px;
+  color: #606060;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
 
 .comoadoptar1, .comoadoptar2, .comoadoptar3 {
   width: 100%;
@@ -532,16 +522,6 @@ body {
 
 .comoadoptar2 {
   flex-direction: row-reverse;
-}
-
-.comoadoptarinfo h3 {
-  padding: 40px;
-  color: #606060;
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  justify-content: space-around;
-  display: flex;
 }
 
 .comoadoptarimg1, .comoadoptarimg2 {
@@ -554,7 +534,6 @@ body {
   width: 60%;
   margin: auto;
 }
-
 .comoadoptarimportante p {
   color: #606060;
   font-size: 30px;
@@ -573,16 +552,15 @@ footer {
   justify-content: space-evenly;
   align-items: center;
 }
+footer img {
+  width: 3vh;
+  height: 3vh;
+}
 
 .logoinstagram .logofacebook {
   padding: 1rem;
   align-items: center;
   justify-items: center;
-}
-
-footer img {
-  width: 3vh;
-  height: 3vh;
 }
 
 /* <!-- Fin Footer --> */
