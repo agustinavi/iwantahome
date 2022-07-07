@@ -12,7 +12,7 @@
     height: 3rem;
     width: 100%;
     padding: 20px;
-    color: #FCBA6E;
+    color: $colorsecundario;
 
     font-size: 80px;
     font-weight: 600;
@@ -87,7 +87,7 @@
     font-size: 3rem;
     font-weight: 600;
     text-decoration: none;
-    color: #9EC6E0;
+    color: $colorprimario;
     padding-left: 30px;
 
     display: flex;
@@ -115,11 +115,11 @@
 }
 
 .btn-primary:hover{
-    background-color: #91bdda;
+    background-color: $colorprimario;
 }
 
 .btn-primary:focus{
-    background-color:#FCBA6E;
+    background-color: $colorsecundario;
 }
 
 /* <!-- Fin Sección Gatos --> */

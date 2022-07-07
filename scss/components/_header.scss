@@ -3,7 +3,7 @@
 
 .cabecera{
     width: 100%;
-    background-color: #9EC6E0;
+    background-color: $colorprimario;
     /* font-family: 'Roboto', sans-serif; */
     /* height: 20vh; */
     
@@ -27,7 +27,7 @@
     
     & ul li a{
         /* text-align: center; */
-        color: white;
+        color: $colorfondo;
         font-family: 'Roboto', sans-serif;
         font-size: 2rem;
         align-items: center;

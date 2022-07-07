@@ -32,7 +32,7 @@
 .fichaanimal h1{
     font-family: 'Roboto', sans-serif;
     font-size: 100px;
-    color: #9EC6E0;
+    color: $colorprimario;
 }
 
 
@@ -104,7 +104,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     padding: 10px;
-    background-color: #9EC6E0;
+    background-color: $colorprimario;
     border-color: transparent;
 }
 

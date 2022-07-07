@@ -23,7 +23,7 @@
 
     h3{
         padding-left: 40px;
-        color: #9EC6E0;
+        color: $colorprimario;
         font-size: 50px;
         font-family: 'Roboto', sans-serif;
     }
@@ -31,7 +31,7 @@
     p{
         padding-left: 40px;
         padding-right: 40px;
-        color: #606060;
+        color: $colorterciario;
         font-size: 30px;
         font-family: 'Roboto', sans-serif;
     }
@@ -41,7 +41,7 @@
     height: 200px;
     width: 100%;
     padding: 20px;
-    color: #FCBA6E;
+    color: $colorsecundario;
 
     font-size: 80px;
     font-family: 'Roboto', sans-serif;

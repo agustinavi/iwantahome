@@ -148,8 +148,8 @@
     text-align: center;
 
     h2{
-    color: #ffffff;
-    background-color: #FCBA6E;
+    color: $colorfondo;
+    background-color: $colorsecundario;
 
     width: 100%;
     height: auto;
@@ -166,7 +166,7 @@
         font-size: 3rem;
         padding: 1rem;
         /* margin: auto; */
-        color: #9EC6E0;
+        color: $colorprimario;
         text-decoration: none;
     
     }

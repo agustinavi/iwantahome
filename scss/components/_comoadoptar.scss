@@ -9,7 +9,7 @@
  .seccioncomoadoptartitulo{
      height: 200px;
      width: 100%;
-     color: #FCBA6E;
+     color: $colorsecundario;
      padding: 40px;
  
      font-size: 80px;
@@ -27,7 +27,7 @@
 
     & h3{
         padding: 40px;
-        color: #606060;
+        color: $colorterciario;
         font-size: 30px;
         font-family: 'Roboto', sans-serif;
     
@@ -59,7 +59,7 @@
      margin: auto;
 
     & p{
-        color: #606060;
+        color: $colorterciario;
         font-size: 30px;
         font-family: 'Roboto', sans-serif;
     
