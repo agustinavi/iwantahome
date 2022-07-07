@@ -1,14 +1,13 @@
 
+
 *{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: $colorfondo;
-    
-    }
+
+@import '../scss/base/variables';
 
 @import './components/header';
 @import './components/home';
@@ -19,5 +18,9 @@ body {
 @import './components/comoadoptar';
 @import './components/footer';
 
-@import '../base/variables';
+
+body {
+    background-color: $colorfondo;
+    
+    }
 
