@@ -1,16 +1,17 @@
 
 /* <!-- Sección Gatos --> */
 .secciongatos{
-    width: 100%;
-    height: auto;
+    @include tamaño (100%, auto);
+
     padding: 1rem;
     
     display: inline-block
 }
 
 .gatitostitulo{
-    height: 3rem;
-    width: 100%;
+    @include tamaño (100%, 3rem);
+    // height: 3rem;
+    // width: 100%;
     padding: 20px;
     color: $colorsecundario;
 
@@ -23,8 +24,8 @@
 }
 
 .listagatos{
-    width: 100%;
-    height: auto;
+    @include tamaño (100%, auto);
+
     padding: 40px;
     
     display:grid;
@@ -39,8 +40,9 @@
     }
 
     img{
-        width: 30vh;
-        height: auto;
+        @include tamaño (30vh, auto);
+        // width: 30vh;
+        // height: auto;
     }
     
     p{
@@ -68,13 +70,17 @@
 
 
 .gato1, .gato2, .gato3, .gato4, .gato5, .gato6{
-    width: 80%;
-    height: fit-content;
+    @include tamaño (80%, fit-content);
+
+    // width: 80%;
+    // height: fit-content;
     padding: 1rem;
-    align-items: center;
+   
     justify-content: flex-start;
 
-    display: flex;
+    @extend %flexbox;
+    // display: flex;
+    // align-items: center;
 }
 
 // .listagatos img:hover{

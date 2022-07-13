@@ -2,8 +2,8 @@
 /* <!-- Sección Main Home --> */
 .main{
     margin-top: 0%;
-    width: 100%;
-    height: auto;
+    
+    @include tamaño (100%, auto);
     
     padding: 2rem;
     
@@ -22,7 +22,8 @@
 }
 
 #informacion{
-    height: auto;
+    @include tamaño (100%, auto);
+
     padding: 40px;
     padding-top: 20%;
     color: #9EC6E0;
@@ -69,8 +70,10 @@
 
 /* <!-- Sección Testimonios en Home --> */
 .testimoniosseccion{
-    width: 100%;
-    height: auto;
+    // width: 100%;
+    // height: auto;
+    @include tamaño (100%, auto);
+    
     padding: 2rem;
     
     display: inline-block;
@@ -79,8 +82,8 @@
 }
 
 .testimonioscontainer{
-    width: 100%;
-    height: auto;
+    @include tamaño (100%, auto);
+
     justify-content: space-around;
     align-content: center;
 }
@@ -173,11 +176,13 @@
 }
 
 .veranimales{
-    display: flex;
+    @extend %flexbox;
+
+    
     width: 100%;
     height: auto;
     padding: 1rem;
-    align-items: center;
+    
     justify-content: space-around;
 
 }

@@ -11,9 +11,10 @@
         padding-left: 40px;
         padding-bottom: 40px;
     
-        display: flex;
+        @extend %flexbox;
+
         justify-content: flex-start;
-        align-items: center;
+        
     }
     
     &-ejemplo2{

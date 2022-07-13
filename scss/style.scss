@@ -8,6 +8,8 @@
 
 
 @import '../scss/base/variables';
+@import '../scss/base/extends';
+@import '../scss/base/mixins';
 
 @import './components/header';
 @import './components/home';
@@ -24,3 +26,5 @@ body {
     
     }
 
+
+/*# sourceMappingURL=style.css.map */

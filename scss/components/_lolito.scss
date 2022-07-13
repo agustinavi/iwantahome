@@ -63,8 +63,10 @@
     height: 500px;
     padding: 40px;
 
+    @extend %flexbox;
+
     justify-content: center;
-    display: flex;
+    
 }
 
 .fichamapa iframe{

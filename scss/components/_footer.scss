@@ -5,9 +5,9 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 
-    display: flex;
+    @extend %flexbox;
     justify-content: space-evenly;
-    align-items: center;
+    
 
     img{
         width: 3vh;

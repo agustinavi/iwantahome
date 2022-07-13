@@ -1,0 +1,6 @@
+@mixin tamaño ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+/* @include tamaño (100%, auto); */
