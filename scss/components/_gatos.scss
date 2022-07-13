@@ -83,6 +83,10 @@
     // align-items: center;
 }
 
+.gato2{
+    background-color: map-get($adoptados, fondo-adoptado, border);
+}
+
 // .listagatos img:hover{
 //     transform: scale(1.3);
 //     animation: 0.4s;
