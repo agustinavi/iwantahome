@@ -462,7 +462,6 @@ footer, .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontest
   width: 100%;
   padding: 5vh 10vh;
   justify-content: flex-start;
-  flex-wrap: wrap;
 }
 .secciontestimonios h3 {
   padding-left: 40px;
@@ -479,15 +478,13 @@ footer, .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontest
 .secciontestimonios-ejemplo2 {
   flex-direction: row-reverse;
 }
-.secciontestimonios-ejemplo2 h3 {
-  padding-left: 1300px;
-}
 
 @media screen and (max-width: 850px) {
   .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontestimonios-ejemplo3 {
     width: 100%;
     padding: 5vh 5vh;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .secciontestimonios-ejemplo1 h3, .secciontestimonios-ejemplo2 h3, .secciontestimonios-ejemplo3 h3 {
     font-size: 2rem;
@@ -644,12 +641,12 @@ footer, .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontest
   padding: 0 20vh;
   width: 100%;
   justify-content: center;
-  background-image: url(/multimedia/images/fondoadopciondesktop.jpg) top center;
 }
 .comoadoptarimportante p {
   color: #FCBA6E;
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
+  font-weight: 600;
   justify-content: center;
 }
 

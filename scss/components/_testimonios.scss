@@ -19,7 +19,6 @@
         @extend %flexbox;
 
         justify-content: flex-start;
-        flex-wrap: wrap;
         
     }
     
@@ -40,9 +39,6 @@
     
     &-ejemplo2{
         flex-direction: row-reverse;
-        h3{
-        padding-left: 1300px;
-        }
      }
 }
 
@@ -51,6 +47,7 @@
         width: 100%;
         padding: 5vh 5vh;
         justify-content: center;
+        flex-wrap: wrap;
 
         h3{
             font-size: 2rem;
