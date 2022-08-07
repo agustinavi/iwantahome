@@ -594,19 +594,25 @@ footer, .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontest
   font-family: "Roboto", sans-serif;
   justify-content: center;
 }
+
 @media screen and (max-width: 850px) {
-  .comoadoptarimportante p {
-    font-size: 1.5rem;
+  .comoadoptarimportante {
     width: 100%;
+    padding: 20px;
+  }
+  .comoadoptarimportante p {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 570px) {
-  .comoadoptarimportante p {
+  .comoadoptarimportante {
     width: 100%;
-    font-size: 1.5rem;
+    padding: 20px;
+  }
+  .comoadoptarimportante p {
+    font-size: 20px;
   }
 }
-
 /* <!-- Fin Sección Cómo adoptar --> */
 .contacto {
   background-color: #FCBA6E;
