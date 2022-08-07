@@ -8,6 +8,7 @@
 
 .perritostitulo{
     margin-bottom: 2rem;
+    
 }
 
 .listaperros{
@@ -26,5 +27,24 @@
         height: 161px;
     }
 }
+
+@media screen and (max-width: 850px) {
+       .perritostitulo h1{
+         font-size: 0.5rem;
+       }
+       .seccionperros{
+        padding: 10px;
+       }
+}
+
+   
+   @media screen and (max-width: 570px) {
+        .perritostitulo h1{
+          font-size: 1rem;
+       }
+       .seccionperros{
+        padding: 10px;
+       }
+   }
 
 /* <!-- Fin Sección Perros --> */

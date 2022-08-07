@@ -17,7 +17,6 @@
 @media (max-width: 600px) {
     .main {
         grid-template-columns: 1fr;
-        font-size: 20px;
     }
 }
 
@@ -38,17 +37,19 @@
 }
 
 @media screen and (max-width: 570px){
+    .main{
+        padding: 1rem;
+    }
+
     #informacion{
         width: 90%;
-        font-size: 2rem;
-        padding: 10px;
+        font-size: 1.5rem;
+        padding: 1rem;
         font-weight: 300;
     }
-    .testimoniostexto{ 
-        font-size: 1rem;
-    }
+
     .fotoprincipal{
-        padding: 1rem;
+        padding: 0.5rem;
     }
 }
 
@@ -72,7 +73,7 @@
 .testimoniosseccion{
     @include tamaño (100%, auto);
     
-    padding: 2rem;
+    padding: 1rem;
     
     display: inline-block;
     text-align: center;
@@ -127,7 +128,7 @@
         font-size: 2rem;
     }
     .testimoniostexto{ 
-        font-size: 1.5rem;
+        font-size: 0.9rem;
         justify-content: center;
         align-content: center;
     }
@@ -180,7 +181,7 @@
     height: auto;
     padding: 1rem;
     
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 
@@ -188,9 +189,7 @@
 @media screen and (max-width: 570px){
     .empeza{
         transform: scale(0.8);
-    }
-    .veranimales{
-        transform: scale(0.8)
+        padding: 1rem;
     }
 }
 
