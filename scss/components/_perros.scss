@@ -4,6 +4,7 @@
     width: 100%;
     height: auto;
     padding: 40px;
+    
 }
 
 .perritostitulo{
@@ -15,9 +16,6 @@
     width: 100%;
     height: auto;
     padding: 40px;
-}
-
-.listaperros {
     align-items: center;
 }
 
@@ -45,6 +43,9 @@
        .seccionperros{
         padding: 10px;
        }
+       .seccionperros .col{
+        margin-bottom: 20px;
+        }
    }
 
 /* <!-- Fin Sección Perros --> */

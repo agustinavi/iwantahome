@@ -8,6 +8,12 @@
     display: inline-block;
  }
 
+ @media screen and (min-width: 851px) {
+    .comoadoptarimg1, .comoadoptarimg2{
+        display: none;
+    }
+}
+
  .seccioncomoadoptartitulo{
      width: 100%;
      color: $colorsecundario;
@@ -64,7 +70,7 @@
     
     @media screen and (max-width: 570px) {
         h3{
-            font-size: 1rem;
+            font-size: 0.9rem;
             padding: 10px;
         }
         img{
@@ -104,7 +110,9 @@
      padding: 0 20vh;
      width: 100%;
      justify-content: center;
-  
+
+     background-image: url(/multimedia/images/fondoadopciondesktop.jpg) top center;
+    
     p{
         color: $colorsecundario;
         font-size: 2rem;
@@ -112,7 +120,16 @@
     
         justify-content: center;
     }
+
+
  }
+
+    // .fondocomoadoptardesktop{
+    //     width: 100vh;
+    //     position: fixed;
+    
+        
+    // }
 
       
  @media screen and (max-width: 850px) {
@@ -123,8 +140,24 @@
         p{
         font-size: 20px;
         }
-
     }
+
+    .comoadoptarimg1{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .comoadoptarimg2{
+        display: inline-block;
+        height: 200px;
+        width: auto;
+        padding-left: 40vh;
+        justify-content: center;
+    }
+
+    // .fondocomoadoptardesktop{
+    //     display: none;
+    // }
 }
 
 @media screen and (max-width: 570px) {
@@ -133,10 +166,27 @@
         padding: 20px;
         
         p{
-            font-size: 20px;
-            }
+        font-size: 20px;
+        }
     }
+    
+    .comoadoptarimg1{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .comoadoptarimg2{
+        display: inline-block;
+        height: 150px;
+        width: auto;
+        padding-left: 15vh;
+    }
+
+    // .fondocomoadoptardesktop{
+    //     display: none;
+    // }
 }
+
 
  
   /* <!-- Fin Sección Cómo adoptar --> */
