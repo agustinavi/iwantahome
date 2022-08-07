@@ -462,6 +462,7 @@ footer, .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontest
   width: 100%;
   padding: 5vh 10vh;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .secciontestimonios h3 {
   padding-left: 40px;
@@ -482,6 +483,46 @@ footer, .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontest
   padding-left: 1300px;
 }
 
+@media screen and (max-width: 850px) {
+  .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontestimonios-ejemplo3 {
+    width: 100%;
+    padding: 5vh 5vh;
+    justify-content: center;
+  }
+  .secciontestimonios-ejemplo1 h3, .secciontestimonios-ejemplo2 h3, .secciontestimonios-ejemplo3 h3 {
+    font-size: 2rem;
+    justify-items: center;
+  }
+  .secciontestimonios-ejemplo1 p, .secciontestimonios-ejemplo2 p, .secciontestimonios-ejemplo3 p {
+    font-size: 1.5rem;
+  }
+  .secciontestimonios-ejemplo2 {
+    flex-direction: row;
+  }
+  .secciontestimonios-ejemplo2 h3 {
+    padding: 5vh 5vh;
+  }
+}
+@media screen and (max-width: 570px) {
+  .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontestimonios-ejemplo3 {
+    width: 100%;
+    padding: 5vh 5vh;
+    justify-content: center;
+  }
+  .secciontestimonios-ejemplo1 h3, .secciontestimonios-ejemplo2 h3, .secciontestimonios-ejemplo3 h3 {
+    font-size: 2rem;
+    justify-items: center;
+  }
+  .secciontestimonios-ejemplo1 p, .secciontestimonios-ejemplo2 p, .secciontestimonios-ejemplo3 p {
+    font-size: 1rem;
+  }
+  .secciontestimonios-ejemplo2 {
+    flex-direction: row;
+  }
+  .secciontestimonios-ejemplo2 h3 {
+    padding: 5vh 5vh;
+  }
+}
 .secciontestimoniostitulo {
   height: 200px;
   width: 100%;
@@ -495,6 +536,20 @@ footer, .secciontestimonios-ejemplo1, .secciontestimonios-ejemplo2, .secciontest
   justify-content: center;
 }
 
+@media screen and (max-width: 850px) {
+  .secciontestimoniostitulo {
+    font-size: 3.2rem;
+    padding: 10px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 570px) {
+  .secciontestimoniostitulo {
+    font-size: 2.8rem;
+    padding: 10px;
+    height: auto;
+  }
+}
 /* <!--  Fin Sección Testimonios --> */
 /* <!-- Sección Cómo adoptar --> */
 .seccioncomoadoptar {
