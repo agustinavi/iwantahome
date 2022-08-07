@@ -19,13 +19,24 @@
 @import './components/lolito';
 @import './components/testimonios';
 @import './components/comoadoptar';
+@import './components/contacto';
 @import './components/footer';
 
 
 body {
     background-color: $colorfondo;
-    
     }
 
+.btn-primary{
+    font-size: 20px;    
+    a{
+        color: #ffff;
+    }
+}
+
+.empeza h2 a{
+    text-decoration: none;
+    color: #ffff !important;
+}
 
 /*# sourceMappingURL=style.css.map */

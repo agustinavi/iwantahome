@@ -3,20 +3,11 @@
 .seccionperros{
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 40px;
 }
 
 .perritostitulo{
-    height: 200px;
-    width: 100%;
-    padding: 20px;
-    color: $colorsecundario;
-
-    font-size: 80px;
-    font-family: 'Roboto', sans-serif;
-
-    display: block;
-    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .listaperros{
@@ -27,6 +18,13 @@
 
 .listaperros {
     align-items: center;
+}
+
+.card{
+    img{
+        width: 286px;
+        height: 161px;
+    }
 }
 
 /* <!-- Fin Sección Perros --> */

@@ -1,0 +1,43 @@
+
+
+.contacto{
+    background-color: $colorsecundario;
+
+    color: $colorfondo;
+    font-family: 'Roboto', sans-serif;
+    
+    h1, h4{
+        text-align: center;
+        padding: 20px;
+        
+    }
+
+    textarea{
+        font-size: 1rem;
+        min-height: 100px;
+        max-height: 250px;
+    }
+
+    .checkbox{
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .botonesform{
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        padding: 40px;
+        margin: 20px;
+
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .btn-primary{
+        font-size: 20px;
+    }
+}

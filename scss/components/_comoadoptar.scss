@@ -3,25 +3,32 @@
 
 .seccioncomoadoptar{
     width: 100%;
+    height: auto;
+    padding: 0 40px;
     display: inline-block;
  }
- 
+
  .seccioncomoadoptartitulo{
-     height: 200px;
      width: 100%;
      color: $colorsecundario;
      padding: 40px;
  
-     font-size: 80px;
+     font-size: 4rem;
+     font-weight: 600;
      font-family: 'Roboto', sans-serif;
  
      display: block;
      text-align: center;
- }
- 
+     justify-content: center;
+
+     position: relative;
+  }
+
  .comoadoptarinfo{
      width: 100%;
-     padding: 40px;
+     height: auto;
+     padding: 10px;
+
  
      display: inline-block;
 
@@ -30,19 +37,59 @@
         color: $colorterciario;
         font-size: 30px;
         font-family: 'Roboto', sans-serif;
+        margin-bottom: 20px;
     
         align-items: center;
         justify-content: space-around;
         display: flex
+        }
+
+    @media screen and (max-width: 850px) {
+        h3{
+            font-size: 1.5rem;
+            padding: 20px;
+        }
+        img{
+            width: 15vh;
+            height: 15vh;
+        }
+        p{
+            font-size: 1rem;
+        }
+        .numerouno, .numerodos, .numerotres{
+            align-items: center;
+        }
     }
- }
+
+    
+    @media screen and (max-width: 570px) {
+        h3{
+            font-size: 1rem;
+            padding: 10px;
+        }
+        img{
+            width: 15vh;
+            height: 15vh;
+        }
+        p{
+            width: 100%;
+        }
+        .numerouno, .numerodos, .numerotres{
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+}
  
  .comoadoptar1, .comoadoptar2, .comoadoptar3{
      width: 100%;
      height: 200px;
-     display: flex;
+     display: flex;    
+    margin-bottom: 40px;
  }
- 
+
+  
  .comoadoptar2{
      flex-direction: row-reverse;
  }
@@ -54,20 +101,33 @@
  
  .comoadoptarimportante{
      display: block;
-     padding: 0px;
-     width: 60%;
-     margin: auto;
-
-    & p{
-        color: $colorterciario;
-        font-size: 30px;
+     padding: 0 20vh;
+     width: 100%;
+     justify-content: center;
+  
+    p{
+        color: $colorsecundario;
+        font-size: 2rem;
         font-family: 'Roboto', sans-serif;
     
         justify-content: center;
-        /* Quiero ponerlo centrado el texto y no funciona */
     }
+          
+    @media screen and (max-width: 850px) {
+        p{
+            font-size: 1.5rem;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 570px) {
+        p{
+            width: 100%;
+            font-size: 1.5rem;
+        }
+    }
+
+    
  }
  
- 
- 
- /* <!-- Fin Sección Cómo adoptar --> */
+  /* <!-- Fin Sección Cómo adoptar --> */
